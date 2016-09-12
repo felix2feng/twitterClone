@@ -47,7 +47,7 @@ npm install
 Run mongoDB in a separate terminal window
 ```
 mongod
-``
+```
 
 Run development server, complete with DevTools and related configuration.
 ```
