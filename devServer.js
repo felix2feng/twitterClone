@@ -45,7 +45,6 @@ app.use(require('webpack-hot-middleware')(compiler));
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-// Send files no matter what
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });

@@ -16,7 +16,9 @@ Author: Felix Feng
   - Eslint w/ basic configs
 
 ##### Features:
-  - Front End: React + Redux
+  - Create Tweet Create Box with character length validation
+  - Display all tweets and user information
+  - Data persistence on the backend using MongoDB
 
 ***
 
@@ -35,7 +37,7 @@ To begin, fork this repo and then clone those contents down!
 
 Ideally, fork this boilerplate, then clone.
 ```
-$ git clone https://github.com/YOUR_GITHUB_USERNAME_HERE/simple-redux-boilerplate.git
+$ git clone https://github.com/YOUR_GITHUB_USERNAME_HERE/twitterClone.git
 ```
 
 Install required dependencies. 
@@ -74,7 +76,9 @@ open http://localhost:3000/
 ### Roadmap
 
  - [ ] Build out Authentication System
+ - [ ] Build out User Account Business Logic
  - [ ] Build out multi-page application with login page
+ - [ ] Build out Like and Retweet functionality
 
 
 ***

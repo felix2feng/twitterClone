@@ -7,7 +7,7 @@ export default class Tweet extends Component {
   }
 
   render() {
-    const { userName, handle, content, likes} = this.props.tweet
+    const { userName, handle, content} = this.props.tweet
     return (
       <Grid>
         <Row>
@@ -17,7 +17,8 @@ export default class Tweet extends Component {
           {content}
         </Row>
         <Row>
-          <Button>Like</Button> {likes}
+          <Button>Retweet</Button>
+          <Button>Like</Button>
         </Row>                
       </Grid>
     );
