@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Navbar }  from 'react-bootstrap';
+import { Navbar, Jumbotron }  from 'react-bootstrap';
 
 export default class Header extends Component {
   render() {
     return (
-        <Navbar>
-          Tweeter
-        </Navbar>
+      <Jumbotron>
+        <h1 className="text-center">Tweeter</h1>
+      </Jumbotron>
     );
   }
 }

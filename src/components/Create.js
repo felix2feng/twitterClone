@@ -62,7 +62,7 @@ export default class Create extends Component {
   render() {
     return (
       <Panel header="Compose a Tweet">
-        <Form onSubmit={this.handleSubmit}> 
+        <Form className="createTweetForm" onSubmit={this.handleSubmit}> 
           <FormGroup controlId="formBasicText" validationState={this.getValidationState()}>
             <Row>
               <FormControl
@@ -73,7 +73,7 @@ export default class Create extends Component {
                 placeholder="What is happening?" />
               <FormControl.Feedback />
             </Row>
-            <Row>
+            <Row className="utilityRow pull-right">
                   <span className="tweet-counter">{this.state.remainingChars}</span>
                   <Button type="submit" bsStyle="info"><span>Tweet</span></Button>
             </Row>
